@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="theme-color" content="#03030b" />
+    <meta name="robots" content="noindex" />
+    <title>Happy Birthday</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600&family=Outfit:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <main id="stage">
+      <canvas id="view" aria-hidden="true"></canvas>
+      <section id="finale" class="finale" aria-hidden="true" style="visibility: hidden">
+        <h1 id="heading"></h1>
+        <p id="message"></p>
+      </section>
+      <p id="paused" hidden>Paused</p>
+      <button id="replay" type="button">Replay</button>
+      <section id="fallback" hidden>
+        <div>
+          <h1></h1>
+          <p></p>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
