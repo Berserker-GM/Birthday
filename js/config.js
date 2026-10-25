@@ -18,7 +18,7 @@ export const config = {
   heading: "HAPPY BIRTHDAY",
 
   message:
-    "For Avery — may this year open the way the flower did,\nand carry you as lightly as the wings do.",
+    "For Ananya — may this year open the way the flower did,\nand carry you as lightly as the wings do.",
 
   // Ordered along the butterfly's flight. The first image appears first.
   photos: [
