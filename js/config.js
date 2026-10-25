@@ -12,7 +12,7 @@
  */
 
 export const config = {
-  recipient: "Avery",
+  recipient: "Ananya",
 
   // Spaces become separate lines.
   heading: "HAPPY BIRTHDAY",
