@@ -1,4 +1,4 @@
-import { config } from "./config.js";
+import { config } from "./config.js?v=2";
 import { createButterfly } from "./butterfly.js";
 import { createFlower } from "./flower.js";
 import { createJourney } from "./journey.js";
